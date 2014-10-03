@@ -36,8 +36,8 @@ Problem 6: Sum Square Difference
 
 Problem 7: 10001st prime
   Begun: 10/03/2014
-  Completed: 
-  Notes: 
+  Completed: 10/3/2014 
+  Notes: Program runs slowly b/c prime number checker is not particularly quick. To speed up program, have to optimize my isPrime() fxn in problem 3.
 
 
 
