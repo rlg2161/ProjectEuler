@@ -20,10 +20,20 @@ Problem 3: Largest Prime Factor
   Completed: 10/2/2014
   Notes: Had to make sure to not test for divisible by 1 as a criteria for prime. Once fixed, program ran correctly.
 
+
 Problem 4: Largest Palindrome Product
   Begun: 10/2/2014
-  Completed:
+  Completed: 10/2/2014
+  Notes: list.reverse() doesn't return anything - it just reverses the list its called on
+
+
+Problem 5: Smallest Multiple
+  Begun:10/2/2014
+  Completed: 10/2/2014
   Notes:
+
+
+
 
 
 
