@@ -33,10 +33,9 @@ def findLargestPrimeFactor(test):
    
 def isPrime(test):
   '''Checks to see if the inputted value is prime and returns a boolean'''
-  sqrt_test = math.ceil(math.sqrt(test))
   prime = True
 
-  for x in range (2, int(sqrt_test)):
+  for x in range (2, test):
     
     if (test%x == 0):
       #print str(test) + "  " + str(x) + "  " + str(test%x)

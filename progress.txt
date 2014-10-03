@@ -23,11 +23,22 @@ Problem 4: Largest Palindrome Product
 
 
 Problem 5: Smallest Multiple
-  Begun:10/2/2014
+  Begun: 10/2/2014
   Completed: 10/2/2014
   Notes:
 
-Problem 6: 
+
+Problem 6: Sum Square Difference
+  Begun: 10/3/2014
+  Completed: 10/3/2014
+  Notes:
+
+
+Problem 7: 10001st prime
+  Begun: 10/03/2014
+  Completed: 
+  Notes: 
+
 
 
 
