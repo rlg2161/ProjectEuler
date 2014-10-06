@@ -40,6 +40,12 @@ Problem 7: 10001st prime
   Notes: Program runs slowly b/c prime number checker is not particularly quick. To speed up program, have to optimize my isPrime() fxn in problem 3.
 
 
+Problem 8: Largest Product in a series
+  Begun: 10/6/2014
+  Completed: 10/6/2014
+  Notes: used file i/o fxns for practice
+
+
 
 
 
