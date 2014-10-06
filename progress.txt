@@ -46,6 +46,16 @@ Problem 8: Largest Product in a series
   Notes: used file i/o fxns for practice
 
 
+Problem 9: Special Pythagorean Triplet
+  Begun: 10/6/2014
+  Completed: 10/6/2014
+  Notes:
+
+
+Problem 10: Summation of Primes
+  Begun: 10/6/2014
+
+
 
 
 
