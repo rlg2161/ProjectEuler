@@ -71,6 +71,15 @@ Problem 12: Highly Divisible Triangular Number
   Completed: 10/8/2014
   Notes: Updated the getFactors() funtion to a) only count factors (not append them to a list) and b) to only check if values up to the sqrt of the test value were factors (and if so add 2 to the factor counter). This change in b) necessitated that each test value is checked to see if it is a perfect square - if it is then one is subtracted from the factor counter (because the perfect square is effectively counted twice).
 
+Problem 13: Large Sum
+  Begun: 10/8/2014
+  Completed: 10/8/2014
+  Notes: In python, can just add all the numbers with no overflow errors. However, to keep in the spirit of the question, I rounded all numbers to their 10 most significant digits, added all of those sums, and then sliced the resulting answer into its most significant 10 digits.
+
+Problem 14: Longest Collatz Sequence
+  Begun: 10/8/2014
+  Completed: 10/8/2014
+  Notes: calcNextCollatz() could probably be accomplished more efficiently if recursion was used. However, for easier reading/keeping track of the length of the chain, I chose to implement it non-recursively and control it with a while loop in the main mehtod.
 
 
 
