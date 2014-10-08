@@ -35,14 +35,24 @@ def isPrime(test):
   '''Checks to see if the inputted value is prime and returns a boolean'''
   prime = True
 
-  for x in range (2, test):
-    
-    if (test%x == 0):
-      #print str(test) + "  " + str(x) + "  " + str(test%x)
-      prime = False
+  if (test == 1):
+    prime = False
+    return prime
 
-  #print str(test) + "   " + str(prime)
-  return prime
+  
+
+  else:
+    for x in range (2, int(math.sqrt(test))+1):
+    
+      #print "intput: " + str(x)
+      if (test%x == 0):
+        #print str(test) + "  " + str(x) + "  " + str(test%x)
+        prime = False
+        break
+      
+
+    #print str(test) + "   " + str(prime)
+    return prime
 
 
 
