@@ -79,11 +79,17 @@ Problem 13: Large Sum
 Problem 14: Longest Collatz Sequence
   Begun: 10/8/2014
   Completed: 10/8/2014
-  Notes: calcNextCollatz() could probably be accomplished more efficiently if recursion was used. However, for easier reading/keeping track of the length of the chain, I chose to implement it non-recursively and control it with a while loop in the main mehtod.
+  Notes: calcNextCollatz() could probably be accomplished more efficiently if recursion was used. However, for easier reading/keeping track of the length of the chain, I chose to  implement it non-recursively and control it with a while loop in the main mehtod.
+
+Problem 15: Lattice Paths
+  Begun: 10/13/2014
+  Completed: 10/13/2014
+  Notes: Implemented based on info from "http://www.robertdickau.com/lattices.html"
+  Implemented makeLatticeNet to return both the root of the lattice and the highest frequency of the net. Highest freq is equal to the number of paths in the lattice and is printed in the main method
 
 
 
-
+  
 
 
 
