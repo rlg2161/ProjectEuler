@@ -3,12 +3,10 @@ Problem 1: Multiples of 3 and 5
   Completed: 10/2/2014
   Notes: Had to adjust range to (1, 1000) b/c 1000 is outside the desired test range
 
-
 Problem 2: Even Fibonacci Numbers
   Begun: 10/2/2014
   Completed: 10/2/2014
   Notes: 
-
 
 Problem 3: Largest Prime Factor
   Begun: 10/2/2014
@@ -16,48 +14,40 @@ Problem 3: Largest Prime Factor
   Notes: Had to make sure to not test for divisible by 1 as a criteria for prime. Once fixed, program ran correctly.
   Updated: 10/8/2014 - isPrime updated to be faster (necessary for problem 10)
 
-
 Problem 4: Largest Palindrome Product
   Begun: 10/2/2014
   Completed: 10/2/2014
   Notes: list.reverse() doesn't return anything - it just reverses the list its called on
-
 
 Problem 5: Smallest Multiple
   Begun: 10/2/2014
   Completed: 10/2/2014
   Notes:
 
-
 Problem 6: Sum Square Difference
   Begun: 10/3/2014
   Completed: 10/3/2014
   Notes:
-
 
 Problem 7: 10001st prime
   Begun: 10/03/2014
   Completed: 10/3/2014 
   Notes: Program runs slowly b/c prime number checker is not particularly quick. To speed up program, have to optimize my isPrime() fxn in problem 3.
 
-
 Problem 8: Largest Product in a series
   Begun: 10/6/2014
   Completed: 10/6/2014
   Notes: used file i/o fxns for practice
-
 
 Problem 9: Special Pythagorean Triplet
   Begun: 10/6/2014
   Completed: 10/6/2014
   Notes:
 
-
 Problem 10: Summation of Primes
   Begun: 10/6/2014
   Completed: 10/6/2014
   Notes: isPrime() fxn is really slow when getting up to this level of prime calculation - may be worth writing another fxn if huge primes keep showing up in problem list.
-
 
 Problem 11: Largest Product in a Grid
   Begun: 10/6/2014
@@ -86,6 +76,18 @@ Problem 15: Lattice Paths
   Completed: 10/13/2014
   Notes: Implemented based on info from "http://www.robertdickau.com/lattices.html"
   Implemented makeLatticeNet to return both the root of the lattice and the highest frequency of the net. Highest freq is equal to the number of paths in the lattice and is printed in the main method
+
+Problem 16: Power Digit Sum
+  Begun: 10/13/2014
+  Completed: 10/13/2014
+  Notes:
+
+Problem 17: Number Letter Counts
+  Begun: 10/13/2014
+  Completed:
+  Notes: Off by 36 letters - cannot find error. Will revisit and try to correct
+
+
 
 
 
