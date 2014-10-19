@@ -87,6 +87,12 @@ Problem 17: Number Letter Counts
   Completed:
   Notes: Off by 36 letters - cannot find error. Will revisit and try to correct
 
+Problem 18: Maximum Path Sum I 
+  Begun: 10/19/2014
+  Completed: 10/19/2014
+  Notes: Max sum method based on discussion found at http://www.mathblog.dk/project-euler-18/
+  Also doubles as solution to problem 67
+
 
 
 

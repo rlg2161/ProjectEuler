@@ -5,8 +5,6 @@
 # letters would be used?
 
 
-
-
 def main():
 
   total = 0
@@ -40,7 +38,7 @@ def getLetterCount(number):
       num_letters = num_letters + 3
 
     else:
-      num_letters = getHundredsPlace(i[0]) 
+      num_letters = getHundredsPlace(i[0]) + 4
 
   elif (j == 2):
     #print "tens   " + i
@@ -51,7 +49,7 @@ def getLetterCount(number):
     num_letters = getOnesPlace(i[0])
 
   
-  print (number, num_letters)
+  #print (number, num_letters)
   return num_letters
 
 
