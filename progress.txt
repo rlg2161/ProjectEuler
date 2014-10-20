@@ -98,7 +98,10 @@ Problem 19: Counting Sundays
   Completed: 10/20/2014
   Notes: Approached by basically making a month-month calendar of all years and then counting what days Sunday == Day 1
 
-
+Problem 20: Factorial Digit Sum
+  Begun: 10/20/2014
+  Completed: 10/20/2014
+  Notes: Non-recursive factorial implementation from stackoverflow thread http://stackoverflow.com/questions/5136447/function-for-factorial-in-python
 
   
 

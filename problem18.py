@@ -22,8 +22,6 @@ def main():
     print in_triangle
   
 
-
-
 def importTriangle(file_name):
   
   triangle = []
@@ -43,6 +41,7 @@ def importTriangle(file_name):
 
   return triangle
 
+
 def maxAB(a, b):
   
   temp = a
@@ -50,7 +49,6 @@ def maxAB(a, b):
     temp = b
 
   return temp
-
 
 
 if __name__ == "__main__":
