@@ -10,7 +10,7 @@
 
 def main():
 
-  in_triangle = importTriangle('problem67input.txt')
+  in_triangle = importTriangle('problem18input.txt')
   
   while (len(in_triangle) > 1):
     
@@ -32,7 +32,9 @@ def importTriangle(file_name):
 
   for line in in_file:
     m_line = line.rstrip('\n')
+    #m_line = m_line[0:len(m_line) -1]
     split_line = m_line.split(" ")
+    print split_line
 
     for x in range(0, len(split_line)):
       split_line[x] = int(split_line[x])

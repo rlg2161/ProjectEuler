@@ -93,7 +93,10 @@ Problem 18: Maximum Path Sum I
   Notes: Max sum method based on discussion found at http://www.mathblog.dk/project-euler-18/
   Also doubles as solution to problem 67
 
-
+Problem 19: Counting Sundays
+  Begun: 10/20/2014
+  Completed: 10/20/2014
+  Notes: Approached by basically making a month-month calendar of all years and then counting what days Sunday == Day 1
 
 
 
