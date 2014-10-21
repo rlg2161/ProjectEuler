@@ -22,9 +22,9 @@ def main():
   counter = 0
   test_val = 0
 
-  for x in range(1, 5):
-    target = target + x
-    print str(target) + ": " + str(listFactors(target))
+  #for x in range(1, 11):
+    #target = target + x
+    #print str(target) + ": " + str(numFactors(target))
 
   l = 0
 
@@ -32,14 +32,14 @@ def main():
     counter = counter + 1
     test_val = test_val + counter
     
-    l = listFactors(test_val)
-    #i = str(test_val) + " factors:  " + str(l) + "\n"
-    #print i
+    l = numFactors(test_val)
+    i = str(test_val) + " factors:  " + str(l) + "\n"
+    print i
   print test_val
 
 
 
-def listFactors(num):
+def numFactors(num):
   numFactors = 0
 
   if (num == 1):
@@ -57,6 +57,33 @@ def listFactors(num):
     numFactors = numFactors - 1
          
   return numFactors
+
+def listFactors(num):
+  
+  listFactors = []
+  
+  if (num < 1):
+    print "List Factors only works for positive ints"
+    return 
+
+  if (num == 1):
+    listFactors.append(1)
+
+  else:
+    for x in range(1, int(math.floor(math.sqrt(num)))+1):
+      #print num/float(x),
+      temp = num/float(x)
+      #print temp
+      if (temp == math.floor(temp)):
+        listFactors.append(int(temp))
+        listFactors.append(x)
+      
+    if (math.sqrt(num) == math.floor(math.sqrt(num))):
+      listFactors.remove(temp)
+
+  listFactors.sort()
+
+  return listFactors
 
 
 

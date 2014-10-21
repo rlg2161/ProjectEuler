@@ -103,7 +103,11 @@ Problem 20: Factorial Digit Sum
   Completed: 10/20/2014
   Notes: Non-recursive factorial implementation from stackoverflow thread http://stackoverflow.com/questions/5136447/function-for-factorial-in-python
 
-  
+
+Problem 21: Amicable Numbers
+  Begun" 10/21/2014
+  Completed: 
+  Notes: 
 
 
 
