@@ -103,11 +103,20 @@ Problem 20: Factorial Digit Sum
   Completed: 10/20/2014
   Notes: Non-recursive factorial implementation from stackoverflow thread http://stackoverflow.com/questions/5136447/function-for-factorial-in-python
 
-
 Problem 21: Amicable Numbers
-  Begun" 10/21/2014
-  Completed: 
-  Notes: 
+  Begun: 10/21/2014
+  Completed: 10/21/2014
+  Notes: Slightly rewrote method from problem 12 to get all factors. From there, built an array with the value in array[x] == d(x) and then tested pairs of array positions and values to see if they matched. 
+
+Problem 22: Name scores
+  Begun: 1/27/2015
+  Completed: 1/27/2015
+  Notes: Have to start counter at 1 instead of 0 to appropriately account for place in list
+
+Problem 25: 1000 length Fibonnaci Term
+  Begun: 1/27/2015
+  Completed: 1/27/2015
+  Notes: Calc len of number by casting it to a string and then taking the length
 
 
 
